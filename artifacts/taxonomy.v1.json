@@ -1,0 +1,251 @@
+{
+  "version": 1,
+  "created_at": "2025-12-26T00:00:00Z",
+  "description": "Curated knowledge taxonomy for Alexandria Library",
+  "domains": {
+    "philosophy": {
+      "id": "philosophy",
+      "name": "Philosophy",
+      "description": "Questions of meaning, ethics, virtue, and existence",
+      "subdomains": {
+        "stoicism": {
+          "id": "stoicism",
+          "name": "Stoicism",
+          "description": "Control, virtue, acceptance, tranquility",
+          "concepts": [
+            "control_dichotomy",
+            "virtue_ethics",
+            "acceptance",
+            "memento_mori",
+            "negative_visualization",
+            "amor_fati"
+          ]
+        },
+        "ethics": {
+          "id": "ethics",
+          "name": "Ethics",
+          "description": "Moral philosophy, right and wrong",
+          "concepts": [
+            "moral_philosophy",
+            "virtue",
+            "duty",
+            "consequences"
+          ]
+        },
+        "existentialism": {
+          "id": "existentialism",
+          "name": "Existentialism",
+          "description": "Meaning, freedom, anxiety, authenticity",
+          "concepts": [
+            "meaning",
+            "freedom",
+            "anxiety",
+            "authenticity"
+          ]
+        }
+      }
+    },
+    "strategy": {
+      "id": "strategy",
+      "name": "Strategy",
+      "description": "Conflict, power, influence, and tactical thinking",
+      "subdomains": {
+        "military": {
+          "id": "military",
+          "name": "Military Strategy",
+          "description": "War, conflict, tactics, positioning",
+          "concepts": [
+            "positioning",
+            "timing",
+            "deception",
+            "terrain",
+            "resource_management",
+            "force_concentration"
+          ]
+        },
+        "power": {
+          "id": "power",
+          "name": "Power Dynamics",
+          "description": "Influence, manipulation, social hierarchy",
+          "concepts": [
+            "social_power",
+            "influence_tactics",
+            "reputation",
+            "manipulation",
+            "authority",
+            "status"
+          ]
+        },
+        "negotiation": {
+          "id": "negotiation",
+          "name": "Negotiation",
+          "description": "Bargaining, persuasion, conflict resolution",
+          "concepts": [
+            "bargaining",
+            "persuasion",
+            "leverage",
+            "framing"
+          ]
+        }
+      }
+    },
+    "psychology": {
+      "id": "psychology",
+      "name": "Psychology",
+      "description": "Mind, behavior, cognition, and emotion",
+      "subdomains": {
+        "mindfulness": {
+          "id": "mindfulness",
+          "name": "Mindfulness",
+          "description": "Presence, awareness, meditation, focus",
+          "concepts": [
+            "present_moment",
+            "awareness",
+            "meditation",
+            "breathing",
+            "acceptance",
+            "non_judgment"
+          ]
+        },
+        "cognitive": {
+          "id": "cognitive",
+          "name": "Cognitive Science",
+          "description": "Thinking, bias, decision making, mental models",
+          "concepts": [
+            "cognitive_bias",
+            "heuristics",
+            "decision_making",
+            "mental_models",
+            "System1_System2",
+            "framing_effects"
+          ]
+        },
+        "social": {
+          "id": "social",
+          "name": "Social Psychology",
+          "description": "Group behavior, conformity, influence",
+          "concepts": [
+            "conformity",
+            "obedience",
+            "group_dynamics",
+            "social_proof",
+            "tribalism"
+          ]
+        }
+      }
+    },
+    "technology": {
+      "id": "technology",
+      "name": "Technology",
+      "description": "Systems, engineering, complexity, and tools",
+      "subdomains": {
+        "systems": {
+          "id": "systems",
+          "name": "Systems Thinking",
+          "description": "Complexity, feedback loops, emergence, holism",
+          "concepts": [
+            "feedback_loops",
+            "emergence",
+            "stocks_flows",
+            "delays",
+            "nonlinearity",
+            "system_archetypes"
+          ]
+        },
+        "software": {
+          "id": "software",
+          "name": "Software Engineering",
+          "description": "Code, architecture, patterns, practices",
+          "concepts": [
+            "modularity",
+            "abstraction",
+            "coupling",
+            "testing",
+            "refactoring"
+          ]
+        },
+        "security": {
+          "id": "security",
+          "name": "Security",
+          "description": "Cryptography, threats, vulnerabilities",
+          "concepts": [
+            "cryptography",
+            "threat_modeling",
+            "vulnerabilities",
+            "defense_in_depth"
+          ]
+        }
+      }
+    },
+    "economics": {
+      "id": "economics",
+      "name": "Economics",
+      "description": "Markets, resources, incentives, trade",
+      "subdomains": {
+        "micro": {
+          "id": "micro",
+          "name": "Microeconomics",
+          "description": "Individual actors, supply/demand, pricing",
+          "concepts": [
+            "supply_demand",
+            "pricing",
+            "incentives",
+            "marginal_utility"
+          ]
+        },
+        "macro": {
+          "id": "macro",
+          "name": "Macroeconomics",
+          "description": "Aggregate systems, policy, growth",
+          "concepts": [
+            "gdp",
+            "inflation",
+            "monetary_policy",
+            "business_cycles"
+          ]
+        },
+        "behavioral": {
+          "id": "behavioral",
+          "name": "Behavioral Economics",
+          "description": "Irrational behavior, bias in decisions",
+          "concepts": [
+            "loss_aversion",
+            "anchoring",
+            "mental_accounting",
+            "bounded_rationality"
+          ]
+        }
+      }
+    },
+    "business": {
+      "id": "business",
+      "name": "Business",
+      "description": "Management, leadership, organizations, entrepreneurship",
+      "subdomains": {
+        "management": {
+          "id": "management",
+          "name": "Management",
+          "description": "Leadership, teams, operations, execution",
+          "concepts": [
+            "leadership",
+            "team_dynamics",
+            "delegation",
+            "accountability",
+            "performance"
+          ]
+        },
+        "entrepreneurship": {
+          "id": "entrepreneurship",
+          "name": "Entrepreneurship",
+          "description": "Startups, innovation, risk, growth",
+          "concepts": [
+            "startup_strategy",
+            "product_market_fit",
+            "scaling",
+            "fundraising"
+          ]
+        }
+      }
+    }
+  }
+}
